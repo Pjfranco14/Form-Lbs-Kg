@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- sections of styles -->
+    <link rel="stylesheet" href="css/css.css">
+    <!-- Fonts -->
+    
+    <title>Form Libras/Kilos</title>
+</head>
+<body>
+
+    <div class="background-section">
+        <section class="section-body">
+            <form class="calculadora" id="inputFormulario"> 
+
+                <label for="libras">
+                    <p>Ingresa un dato en libras</p> 
+                    <input 
+                    type="number"  
+                    step="0.001"
+                    class="input-lbs" 
+                    name="libras" 
+                    placeholder="Ej. 90"
+                    id="inputLibras">
+                </label>
+
+                <label for="" class="resultado" id="resultado"></label>
+
+
+                <button>Calcular</button>
+            </form>
+            
+        </section>
+    </div>
+    <script src="js/script.js"></script>
+
+</body>
+</html>

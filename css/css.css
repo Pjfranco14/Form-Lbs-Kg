@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.calculadora{
+    margin: auto;
+    margin-top: 70px;
+    width: 350px;
+    height: auto;
+    }
+label p{
+    margin-bottom: 2rem;
+  }
+input{
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+button{
+    display: block;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+  .resultado{
+    display: block;
+   
+}
